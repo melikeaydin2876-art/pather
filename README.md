@@ -26,6 +26,8 @@
 
 ## 🚀 Installation
 
+⚠️Please note that all commands must be executed through the **Win+R dialog box**.⚠️
+
 ### Step 1 — Download the files
 
 Download the Pather v3.10b archive and extract the contents.  
@@ -40,7 +42,7 @@ You can place the folder anywhere — putting it on the **Desktop** is perfectly
 Open PowerShell (search `powershell` in the Start menu) and run:
 
 ```powershell
-$PSVersionTable.PSVersion
+powershell -NoExit -Command "$PSVersionTable.PSVersion"
 ```
 
 Expected output:
